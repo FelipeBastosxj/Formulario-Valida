@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.base{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #2F334B;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: rgba(14, 129, 14, 0.945);
+}
+
+input{
+    height: 45px;
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+#reservista{
+    display: flex;
+    flex-direction: column;
+}
+
+.aviso{
+    font-size: 15px;
+    color: red;
+}
+
+.aviso2{
+    font-size: 20px;
+    color: blue;
+}

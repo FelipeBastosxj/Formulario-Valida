@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>A3</title>
+</head>
+<body>
+
+<div class="base">
+
+    <form  method="POST" class="formulario">
+
+        <label for="" class="aviso">Atenção: Neste caso, a submissão não deve ser efetivada.</label>
+
+        <label for="Nome">NOME*</label>
+        <input class="i1" type="text" name="Nome" id="nome">
+
+        <label for="CPF">CPF*</label>
+        <input class="i2" type="number" name="CPF" id="cpf">
+
+        <label for="Sexo">Sexo*</label>
+        <select class="a" name="Sexo" id="aparecer">
+            <option value="">SELECIONE</option>
+            <option value="MASCULINO">MASCULINO</option>
+            <option value="FEMININO">FEMININO</option>
+        </select>
+
+        <label for="Perfil">PERFIL*</label>
+        <input type="file" name="Perfil" id="perfil">
+
+        <div id="reservista">
+        <label for="Rnumero">NUMERO DE RESERVISTA</label>
+        <input class="i3" type="number" name="Rnumero" id="rnumero"> 
+        </div>
+
+        <label for="Email">EMAIL*</label>
+        <input class="i4" type="text" name="Email" id="email">
+
+        <label for="Senha">SENHA*</label>
+        <input class="i5" type="password" name="Senha" id="senha">
+
+        <button type="submit" class="pegar">ENVIAR</button>
+    </form>
+
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
